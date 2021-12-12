@@ -1,0 +1,9 @@
+D:\kam\fall 2021\oop theoy\R_M_S\project\project\bin\Debug\project.exe.config
+D:\kam\fall 2021\oop theoy\R_M_S\project\project\bin\Debug\project.exe
+D:\kam\fall 2021\oop theoy\R_M_S\project\project\bin\Debug\project.pdb
+D:\kam\fall 2021\oop theoy\R_M_S\project\project\obj\Debug\project.csprojResolveAssemblyReference.cache
+D:\kam\fall 2021\oop theoy\R_M_S\project\project\obj\Debug\project.Form1.resources
+D:\kam\fall 2021\oop theoy\R_M_S\project\project\obj\Debug\project.Properties.Resources.resources
+D:\kam\fall 2021\oop theoy\R_M_S\project\project\obj\Debug\project.csproj.GenerateResource.Cache
+D:\kam\fall 2021\oop theoy\R_M_S\project\project\obj\Debug\project.exe
+D:\kam\fall 2021\oop theoy\R_M_S\project\project\obj\Debug\project.pdb
