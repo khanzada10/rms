@@ -57,6 +57,12 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -64,6 +70,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -105,6 +114,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Capture.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bd1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bd2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bd3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bd4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgd1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgd2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgd3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgd4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgd5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgd6.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

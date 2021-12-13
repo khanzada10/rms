@@ -1,6 +1,6 @@
 ﻿namespace project
 {
-    partial class Form1
+    partial class Form3
     {
         /// <summary>
         /// Required designer variable.
@@ -32,33 +32,21 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label20 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.textBox42 = new System.Windows.Forms.TextBox();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
-            this.checkBox29 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.Conf_Order = new System.Windows.Forms.Button();
+            this.label20 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.checkBox25 = new System.Windows.Forms.CheckBox();
-            this.checkBox24 = new System.Windows.Forms.CheckBox();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.textBox44 = new System.Windows.Forms.TextBox();
+            this.textBox39 = new System.Windows.Forms.TextBox();
+            this.textBox40 = new System.Windows.Forms.TextBox();
+            this.textBox41 = new System.Windows.Forms.TextBox();
+            this.textBox42 = new System.Windows.Forms.TextBox();
+            this.textBox43 = new System.Windows.Forms.TextBox();
+            this.checkBox26 = new System.Windows.Forms.CheckBox();
+            this.checkBox14 = new System.Windows.Forms.CheckBox();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -75,32 +63,17 @@
             this.checkBox17 = new System.Windows.Forms.CheckBox();
             this.checkBox16 = new System.Windows.Forms.CheckBox();
             this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.Conf_Order = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.SmallPizza = new System.Windows.Forms.CheckBox();
-            this.SPizza = new System.Windows.Forms.TextBox();
-            this.MPizza = new System.Windows.Forms.TextBox();
-            this.checkBox30 = new System.Windows.Forms.CheckBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.button4 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
@@ -149,23 +122,49 @@
             this.label7 = new System.Windows.Forms.Label();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.checkBox11 = new System.Windows.Forms.CheckBox();
+            this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.checkBox13 = new System.Windows.Forms.CheckBox();
+            this.checkBox24 = new System.Windows.Forms.CheckBox();
+            this.checkBox27 = new System.Windows.Forms.CheckBox();
+            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.textBox33 = new System.Windows.Forms.TextBox();
+            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.textBox35 = new System.Windows.Forms.TextBox();
+            this.textBox36 = new System.Windows.Forms.TextBox();
+            this.textBox37 = new System.Windows.Forms.TextBox();
+            this.textBox38 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label22
@@ -173,11 +172,11 @@
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(12, -3);
+            this.label22.Location = new System.Drawing.Point(12, 9);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(535, 55);
-            this.label22.TabIndex = 5;
-            this.label22.Text = "Pizza Ordering System";
+            this.label22.Size = new System.Drawing.Size(564, 55);
+            this.label22.TabIndex = 6;
+            this.label22.Text = "Burger Ordering System";
             // 
             // tabControl1
             // 
@@ -185,11 +184,11 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl1.Location = new System.Drawing.Point(26, 55);
+            this.tabControl1.Location = new System.Drawing.Point(22, 67);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1302, 520);
-            this.tabControl1.TabIndex = 6;
+            this.tabControl1.Size = new System.Drawing.Size(1278, 580);
+            this.tabControl1.TabIndex = 9;
             // 
             // tabPage1
             // 
@@ -197,131 +196,57 @@
             this.tabPage1.Controls.Add(this.groupBox8);
             this.tabPage1.Controls.Add(this.label20);
             this.tabPage1.Controls.Add(this.button5);
-            this.tabPage1.Controls.Add(this.groupBox5);
+            this.tabPage1.Controls.Add(this.Conf_Order);
             this.tabPage1.Controls.Add(this.groupBox4);
             this.tabPage1.Controls.Add(this.groupBox3);
-            this.tabPage1.Controls.Add(this.Conf_Order);
             this.tabPage1.Controls.Add(this.groupBox2);
-            this.tabPage1.Controls.Add(this.groupBox1);
             this.tabPage1.Location = new System.Drawing.Point(4, 35);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1294, 481);
+            this.tabPage1.Size = new System.Drawing.Size(1270, 541);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Place Your Order";
             // 
             // groupBox8
             // 
             this.groupBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.groupBox8.Controls.Add(this.textBox33);
-            this.groupBox8.Controls.Add(this.textBox32);
-            this.groupBox8.Controls.Add(this.textBox31);
-            this.groupBox8.Controls.Add(this.textBox30);
-            this.groupBox8.Controls.Add(this.textBox29);
-            this.groupBox8.Controls.Add(this.pictureBox4);
-            this.groupBox8.Controls.Add(this.pictureBox2);
+            this.groupBox8.Controls.Add(this.textBox27);
+            this.groupBox8.Controls.Add(this.textBox26);
+            this.groupBox8.Controls.Add(this.textBox25);
+            this.groupBox8.Controls.Add(this.textBox24);
+            this.groupBox8.Controls.Add(this.textBox23);
+            this.groupBox8.Controls.Add(this.textBox22);
+            this.groupBox8.Controls.Add(this.pictureBox6);
             this.groupBox8.Controls.Add(this.pictureBox5);
+            this.groupBox8.Controls.Add(this.pictureBox4);
             this.groupBox8.Controls.Add(this.pictureBox3);
+            this.groupBox8.Controls.Add(this.pictureBox2);
             this.groupBox8.Controls.Add(this.pictureBox1);
             this.groupBox8.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox8.Location = new System.Drawing.Point(650, 96);
+            this.groupBox8.Location = new System.Drawing.Point(630, 6);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(632, 310);
+            this.groupBox8.Size = new System.Drawing.Size(463, 529);
             this.groupBox8.TabIndex = 11;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Deals";
             // 
-            // textBox33
+            // button5
             // 
-            this.textBox33.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox33.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox33.Location = new System.Drawing.Point(547, 129);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(45, 27);
-            this.textBox33.TabIndex = 21;
+            this.button5.Location = new System.Drawing.Point(1111, 61);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(144, 32);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "Exit";
+            this.button5.UseVisualStyleBackColor = true;
             // 
-            // textBox32
+            // Conf_Order
             // 
-            this.textBox32.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox32.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox32.Location = new System.Drawing.Point(355, 128);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(45, 27);
-            this.textBox32.TabIndex = 20;
-            // 
-            // textBox31
-            // 
-            this.textBox31.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox31.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox31.Location = new System.Drawing.Point(343, 260);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(45, 27);
-            this.textBox31.TabIndex = 19;
-            // 
-            // textBox30
-            // 
-            this.textBox30.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox30.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox30.Location = new System.Drawing.Point(121, 260);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(45, 27);
-            this.textBox30.TabIndex = 18;
-            // 
-            // textBox29
-            // 
-            this.textBox29.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox29.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox29.Location = new System.Drawing.Point(151, 128);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(45, 27);
-            this.textBox29.TabIndex = 17;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImage = global::project.Properties.Resources.d5;
-            this.pictureBox4.Location = new System.Drawing.Point(184, 168);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(216, 125);
-            this.pictureBox4.TabIndex = 16;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::project.Properties.Resources.d2;
-            this.pictureBox2.Location = new System.Drawing.Point(214, 30);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(201, 132);
-            this.pictureBox2.TabIndex = 15;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackgroundImage = global::project.Properties.Resources.d4;
-            this.pictureBox5.Location = new System.Drawing.Point(6, 168);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(172, 125);
-            this.pictureBox5.TabIndex = 14;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = global::project.Properties.Resources.d3;
-            this.pictureBox3.Location = new System.Drawing.Point(421, 30);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(183, 132);
-            this.pictureBox3.TabIndex = 12;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.BackgroundImage = global::project.Properties.Resources.d1;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 30);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(202, 132);
-            this.pictureBox1.TabIndex = 10;
-            this.pictureBox1.TabStop = false;
+            this.Conf_Order.Location = new System.Drawing.Point(1111, 11);
+            this.Conf_Order.Name = "Conf_Order";
+            this.Conf_Order.Size = new System.Drawing.Size(144, 32);
+            this.Conf_Order.TabIndex = 2;
+            this.Conf_Order.Text = "Confirm Order";
+            this.Conf_Order.UseVisualStyleBackColor = true;
             // 
             // label20
             // 
@@ -334,187 +259,126 @@
             this.label20.TabIndex = 9;
             this.label20.Text = "Brought You By ITSOURCECODE";
             // 
-            // button5
+            // groupBox4
             // 
-            this.button5.Location = new System.Drawing.Point(801, 412);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(146, 32);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "Exit";
-            this.button5.UseVisualStyleBackColor = true;
+            this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.groupBox4.Controls.Add(this.label23);
+            this.groupBox4.Controls.Add(this.textBox39);
+            this.groupBox4.Controls.Add(this.textBox41);
+            this.groupBox4.Controls.Add(this.textBox42);
+            this.groupBox4.Controls.Add(this.textBox43);
+            this.groupBox4.Controls.Add(this.checkBox26);
+            this.groupBox4.Controls.Add(this.checkBox14);
+            this.groupBox4.Controls.Add(this.checkBox9);
+            this.groupBox4.Controls.Add(this.checkBox8);
+            this.groupBox4.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Location = new System.Drawing.Point(339, 288);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(285, 240);
+            this.groupBox4.TabIndex = 6;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Other Items";
             // 
-            // groupBox5
+            // label23
             // 
-            this.groupBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.groupBox5.Controls.Add(this.textBox42);
-            this.groupBox5.Controls.Add(this.textBox41);
-            this.groupBox5.Controls.Add(this.textBox40);
-            this.groupBox5.Controls.Add(this.textBox39);
-            this.groupBox5.Controls.Add(this.textBox38);
-            this.groupBox5.Controls.Add(this.checkBox29);
-            this.groupBox5.Controls.Add(this.checkBox10);
-            this.groupBox5.Controls.Add(this.checkBox14);
-            this.groupBox5.Controls.Add(this.checkBox13);
-            this.groupBox5.Controls.Add(this.checkBox12);
-            this.groupBox5.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox5.Location = new System.Drawing.Point(18, 118);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(626, 63);
-            this.groupBox5.TabIndex = 7;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Flavour";
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(169, 11);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(79, 23);
+            this.label23.TabIndex = 44;
+            this.label23.Text = "Quantity";
             // 
-            // textBox42
+            // textBox44
             // 
-            this.textBox42.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox42.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox42.Location = new System.Drawing.Point(562, 28);
-            this.textBox42.Multiline = true;
-            this.textBox42.Name = "textBox42";
-            this.textBox42.Size = new System.Drawing.Size(41, 30);
-            this.textBox42.TabIndex = 24;
-            // 
-            // textBox41
-            // 
-            this.textBox41.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox41.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox41.Location = new System.Drawing.Point(445, 27);
-            this.textBox41.Multiline = true;
-            this.textBox41.Name = "textBox41";
-            this.textBox41.Size = new System.Drawing.Size(41, 30);
-            this.textBox41.TabIndex = 23;
-            // 
-            // textBox40
-            // 
-            this.textBox40.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox40.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox40.Location = new System.Drawing.Point(328, 27);
-            this.textBox40.Multiline = true;
-            this.textBox40.Name = "textBox40";
-            this.textBox40.Size = new System.Drawing.Size(41, 30);
-            this.textBox40.TabIndex = 22;
+            this.textBox44.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox44.Location = new System.Drawing.Point(242, 122);
+            this.textBox44.Name = "textBox44";
+            this.textBox44.Size = new System.Drawing.Size(45, 27);
+            this.textBox44.TabIndex = 43;
             // 
             // textBox39
             // 
-            this.textBox39.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.textBox39.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox39.Location = new System.Drawing.Point(219, 27);
-            this.textBox39.Multiline = true;
+            this.textBox39.Location = new System.Drawing.Point(187, 136);
             this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(41, 30);
-            this.textBox39.TabIndex = 21;
+            this.textBox39.Size = new System.Drawing.Size(45, 27);
+            this.textBox39.TabIndex = 42;
             // 
-            // textBox38
+            // textBox40
             // 
-            this.textBox38.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox38.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox38.Location = new System.Drawing.Point(91, 27);
-            this.textBox38.Multiline = true;
-            this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(41, 30);
-            this.textBox38.TabIndex = 20;
+            this.textBox40.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox40.Location = new System.Drawing.Point(242, 83);
+            this.textBox40.Name = "textBox40";
+            this.textBox40.Size = new System.Drawing.Size(45, 27);
+            this.textBox40.TabIndex = 41;
             // 
-            // checkBox29
+            // textBox41
             // 
-            this.checkBox29.AutoSize = true;
-            this.checkBox29.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox29.Location = new System.Drawing.Point(492, 30);
-            this.checkBox29.Name = "checkBox29";
-            this.checkBox29.Size = new System.Drawing.Size(64, 23);
-            this.checkBox29.TabIndex = 15;
-            this.checkBox29.Text = "Tikka";
-            this.checkBox29.UseVisualStyleBackColor = true;
+            this.textBox41.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox41.Location = new System.Drawing.Point(187, 103);
+            this.textBox41.Name = "textBox41";
+            this.textBox41.Size = new System.Drawing.Size(45, 27);
+            this.textBox41.TabIndex = 40;
             // 
-            // checkBox10
+            // textBox42
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox10.Location = new System.Drawing.Point(266, 30);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(65, 23);
-            this.checkBox10.TabIndex = 14;
-            this.checkBox10.Text = "Fajita";
-            this.checkBox10.UseVisualStyleBackColor = true;
+            this.textBox42.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox42.Location = new System.Drawing.Point(187, 70);
+            this.textBox42.Name = "textBox42";
+            this.textBox42.Size = new System.Drawing.Size(45, 27);
+            this.textBox42.TabIndex = 39;
+            // 
+            // textBox43
+            // 
+            this.textBox43.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox43.Location = new System.Drawing.Point(187, 37);
+            this.textBox43.Name = "textBox43";
+            this.textBox43.Size = new System.Drawing.Size(45, 27);
+            this.textBox43.TabIndex = 38;
+            // 
+            // checkBox26
+            // 
+            this.checkBox26.AutoSize = true;
+            this.checkBox26.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox26.Location = new System.Drawing.Point(3, 136);
+            this.checkBox26.Name = "checkBox26";
+            this.checkBox26.Size = new System.Drawing.Size(159, 23);
+            this.checkBox26.TabIndex = 37;
+            this.checkBox26.Text = "Green Salad (Rs 25)";
+            this.checkBox26.UseVisualStyleBackColor = true;
             // 
             // checkBox14
             // 
             this.checkBox14.AutoSize = true;
             this.checkBox14.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox14.Location = new System.Drawing.Point(375, 30);
+            this.checkBox14.Location = new System.Drawing.Point(6, 107);
             this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(64, 23);
-            this.checkBox14.TabIndex = 13;
-            this.checkBox14.Text = "Spicy";
+            this.checkBox14.Size = new System.Drawing.Size(112, 23);
+            this.checkBox14.TabIndex = 33;
+            this.checkBox14.Text = "Raita (Rs 50)";
             this.checkBox14.UseVisualStyleBackColor = true;
             // 
-            // checkBox13
+            // checkBox9
             // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox13.Location = new System.Drawing.Point(138, 30);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(75, 23);
-            this.checkBox13.TabIndex = 12;
-            this.checkBox13.Text = "Cheesy";
-            this.checkBox13.UseVisualStyleBackColor = true;
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox9.Location = new System.Drawing.Point(3, 41);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(108, 23);
+            this.checkBox9.TabIndex = 36;
+            this.checkBox9.Text = "Fries (Rs 30)";
+            this.checkBox9.UseVisualStyleBackColor = true;
             // 
-            // checkBox12
+            // checkBox8
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox12.Location = new System.Drawing.Point(6, 29);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(79, 23);
-            this.checkBox12.TabIndex = 11;
-            this.checkBox12.Text = "Normal";
-            this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.groupBox4.Controls.Add(this.checkBox25);
-            this.groupBox4.Controls.Add(this.checkBox24);
-            this.groupBox4.Controls.Add(this.checkBox22);
-            this.groupBox4.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(650, 20);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(629, 70);
-            this.groupBox4.TabIndex = 6;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Other Items";
-            // 
-            // checkBox25
-            // 
-            this.checkBox25.AutoSize = true;
-            this.checkBox25.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox25.Location = new System.Drawing.Point(355, 27);
-            this.checkBox25.Name = "checkBox25";
-            this.checkBox25.Size = new System.Drawing.Size(215, 23);
-            this.checkBox25.TabIndex = 17;
-            this.checkBox25.Text = "Cheesy Garlic Bread(Rs 600)";
-            this.checkBox25.UseVisualStyleBackColor = true;
-            // 
-            // checkBox24
-            // 
-            this.checkBox24.AutoSize = true;
-            this.checkBox24.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox24.Location = new System.Drawing.Point(189, 27);
-            this.checkBox24.Name = "checkBox24";
-            this.checkBox24.Size = new System.Drawing.Size(167, 23);
-            this.checkBox24.TabIndex = 16;
-            this.checkBox24.Text = "Onion Rings (Rs 200)";
-            this.checkBox24.UseVisualStyleBackColor = true;
-            // 
-            // checkBox22
-            // 
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox22.Location = new System.Drawing.Point(6, 27);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(184, 23);
-            this.checkBox22.TabIndex = 14;
-            this.checkBox22.Text = "Chicken Wings (Rs 300)";
-            this.checkBox22.UseVisualStyleBackColor = true;
+            this.checkBox8.AutoSize = true;
+            this.checkBox8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox8.Location = new System.Drawing.Point(6, 74);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(167, 23);
+            this.checkBox8.TabIndex = 35;
+            this.checkBox8.Text = "Onion Rings (Rs 200)";
+            this.checkBox8.UseVisualStyleBackColor = true;
             // 
             // groupBox3
             // 
@@ -535,7 +399,7 @@
             this.groupBox3.Controls.Add(this.checkBox16);
             this.groupBox3.Controls.Add(this.checkBox15);
             this.groupBox3.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(359, 187);
+            this.groupBox3.Location = new System.Drawing.Point(339, 6);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(285, 276);
             this.groupBox3.TabIndex = 5;
@@ -684,42 +548,88 @@
             this.checkBox15.Text = "Coke 1 litre(Rs 80)";
             this.checkBox15.UseVisualStyleBackColor = true;
             // 
-            // Conf_Order
-            // 
-            this.Conf_Order.Location = new System.Drawing.Point(650, 412);
-            this.Conf_Order.Name = "Conf_Order";
-            this.Conf_Order.Size = new System.Drawing.Size(144, 32);
-            this.Conf_Order.TabIndex = 2;
-            this.Conf_Order.Text = "Confirm Order";
-            this.Conf_Order.UseVisualStyleBackColor = true;
-            this.Conf_Order.Click += new System.EventHandler(this.Conf_Order_Click);
-            // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.groupBox2.Controls.Add(this.label21);
-            this.groupBox2.Controls.Add(this.textBox22);
-            this.groupBox2.Controls.Add(this.textBox23);
-            this.groupBox2.Controls.Add(this.textBox24);
-            this.groupBox2.Controls.Add(this.textBox25);
-            this.groupBox2.Controls.Add(this.textBox26);
-            this.groupBox2.Controls.Add(this.textBox27);
-            this.groupBox2.Controls.Add(this.textBox28);
-            this.groupBox2.Controls.Add(this.checkBox7);
-            this.groupBox2.Controls.Add(this.checkBox6);
-            this.groupBox2.Controls.Add(this.checkBox5);
+            this.groupBox2.Controls.Add(this.textBox34);
+            this.groupBox2.Controls.Add(this.textBox35);
+            this.groupBox2.Controls.Add(this.textBox36);
+            this.groupBox2.Controls.Add(this.textBox37);
+            this.groupBox2.Controls.Add(this.textBox38);
+            this.groupBox2.Controls.Add(this.textBox29);
+            this.groupBox2.Controls.Add(this.textBox30);
+            this.groupBox2.Controls.Add(this.textBox31);
+            this.groupBox2.Controls.Add(this.textBox32);
+            this.groupBox2.Controls.Add(this.textBox33);
+            this.groupBox2.Controls.Add(this.checkBox27);
+            this.groupBox2.Controls.Add(this.textBox44);
+            this.groupBox2.Controls.Add(this.checkBox24);
+            this.groupBox2.Controls.Add(this.checkBox13);
+            this.groupBox2.Controls.Add(this.textBox40);
+            this.groupBox2.Controls.Add(this.checkBox12);
+            this.groupBox2.Controls.Add(this.checkBox11);
             this.groupBox2.Controls.Add(this.checkBox4);
             this.groupBox2.Controls.Add(this.checkBox3);
+            this.groupBox2.Controls.Add(this.checkBox5);
             this.groupBox2.Controls.Add(this.checkBox2);
+            this.groupBox2.Controls.Add(this.label21);
+            this.groupBox2.Controls.Add(this.textBox28);
+            this.groupBox2.Controls.Add(this.checkBox10);
+            this.groupBox2.Controls.Add(this.checkBox6);
             this.groupBox2.Controls.Add(this.checkBox1);
+            this.groupBox2.Controls.Add(this.checkBox7);
             this.groupBox2.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.Black;
-            this.groupBox2.Location = new System.Drawing.Point(18, 187);
+            this.groupBox2.Location = new System.Drawing.Point(18, 6);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(312, 276);
+            this.groupBox2.Size = new System.Drawing.Size(315, 522);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Pizza Menu";
+            this.groupBox2.Text = "BURGER Menu";
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox4.Location = new System.Drawing.Point(6, 387);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(160, 23);
+            this.checkBox4.TabIndex = 25;
+            this.checkBox4.Text = "Belt Buster (Rs 900)";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox3.Location = new System.Drawing.Point(6, 240);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(187, 23);
+            this.checkBox3.TabIndex = 24;
+            this.checkBox3.Text = "Grilled Chicken (Rs 550)";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox5.Location = new System.Drawing.Point(6, 274);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(225, 23);
+            this.checkBox5.TabIndex = 26;
+            this.checkBox5.Text = "Zinger Cheese Burger(Rs 350)";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox2.Location = new System.Drawing.Point(6, 126);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(174, 23);
+            this.checkBox2.TabIndex = 23;
+            this.checkBox2.Text = "Zinger Burger(Rs 250)";
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // label21
             // 
@@ -730,54 +640,6 @@
             this.label21.TabIndex = 22;
             this.label21.Text = "Quantity";
             // 
-            // textBox22
-            // 
-            this.textBox22.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox22.Location = new System.Drawing.Point(242, 241);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(45, 27);
-            this.textBox22.TabIndex = 21;
-            // 
-            // textBox23
-            // 
-            this.textBox23.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox23.Location = new System.Drawing.Point(242, 208);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(45, 27);
-            this.textBox23.TabIndex = 20;
-            // 
-            // textBox24
-            // 
-            this.textBox24.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox24.Location = new System.Drawing.Point(242, 177);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(45, 27);
-            this.textBox24.TabIndex = 19;
-            // 
-            // textBox25
-            // 
-            this.textBox25.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox25.Location = new System.Drawing.Point(242, 144);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(45, 27);
-            this.textBox25.TabIndex = 18;
-            // 
-            // textBox26
-            // 
-            this.textBox26.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox26.Location = new System.Drawing.Point(242, 109);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(45, 27);
-            this.textBox26.TabIndex = 17;
-            // 
-            // textBox27
-            // 
-            this.textBox27.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox27.Location = new System.Drawing.Point(242, 74);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(45, 27);
-            this.textBox27.TabIndex = 16;
-            // 
             // textBox28
             // 
             this.textBox28.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -786,71 +648,27 @@
             this.textBox28.Size = new System.Drawing.Size(45, 27);
             this.textBox28.TabIndex = 15;
             // 
-            // checkBox7
+            // checkBox10
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox7.Location = new System.Drawing.Point(6, 241);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(88, 23);
-            this.checkBox7.TabIndex = 6;
-            this.checkBox7.Text = "Jalapeno";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.checkBox10.AutoSize = true;
+            this.checkBox10.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox10.Location = new System.Drawing.Point(6, 207);
+            this.checkBox10.Name = "checkBox10";
+            this.checkBox10.Size = new System.Drawing.Size(235, 23);
+            this.checkBox10.TabIndex = 29;
+            this.checkBox10.Text = "Chicken Cheese Burger(Rs 400)";
+            this.checkBox10.UseVisualStyleBackColor = true;
             // 
             // checkBox6
             // 
             this.checkBox6.AutoSize = true;
             this.checkBox6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox6.Location = new System.Drawing.Point(6, 209);
+            this.checkBox6.Location = new System.Drawing.Point(6, 172);
             this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(114, 23);
-            this.checkBox6.TabIndex = 5;
-            this.checkBox6.Text = "Ground Beef";
+            this.checkBox6.Size = new System.Drawing.Size(174, 23);
+            this.checkBox6.TabIndex = 27;
+            this.checkBox6.Text = "Classic Burger(Rs 300)";
             this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox5.Location = new System.Drawing.Point(6, 176);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(162, 23);
-            this.checkBox5.TabIndex = 4;
-            this.checkBox5.Text = "Italalin Sandwiched";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.Location = new System.Drawing.Point(6, 143);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(179, 23);
-            this.checkBox4.TabIndex = 3;
-            this.checkBox4.Text = "Chicken Pasta (Rs 500)";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(6, 110);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(160, 23);
-            this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "Mushroom (Rs 800)";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(6, 77);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(171, 23);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "Extra Cheese (Rs 700)";
-            this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox1
             // 
@@ -858,109 +676,21 @@
             this.checkBox1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.Location = new System.Drawing.Point(6, 43);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(228, 23);
+            this.checkBox1.Size = new System.Drawing.Size(184, 23);
             this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Buffalo Chicken Pizza (Rs 130)";
+            this.checkBox1.Text = "Chicken Burger(Rs 200)";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // groupBox1
+            // checkBox7
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.groupBox1.Controls.Add(this.SmallPizza);
-            this.groupBox1.Controls.Add(this.SPizza);
-            this.groupBox1.Controls.Add(this.MPizza);
-            this.groupBox1.Controls.Add(this.checkBox30);
-            this.groupBox1.Controls.Add(this.textBox35);
-            this.groupBox1.Controls.Add(this.textBox36);
-            this.groupBox1.Controls.Add(this.checkBox9);
-            this.groupBox1.Controls.Add(this.checkBox11);
-            this.groupBox1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(18, 20);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(626, 92);
-            this.groupBox1.TabIndex = 3;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Pizza Size";
-            // 
-            // SmallPizza
-            // 
-            this.SmallPizza.AutoSize = true;
-            this.SmallPizza.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SmallPizza.Location = new System.Drawing.Point(6, 27);
-            this.SmallPizza.Name = "SmallPizza";
-            this.SmallPizza.Size = new System.Drawing.Size(122, 23);
-            this.SmallPizza.TabIndex = 21;
-            this.SmallPizza.Text = "Small (350 Rs)";
-            this.SmallPizza.UseVisualStyleBackColor = true;
-            // 
-            // SPizza
-            // 
-            this.SPizza.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.SPizza.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SPizza.Location = new System.Drawing.Point(20, 56);
-            this.SPizza.Name = "SPizza";
-            this.SPizza.Size = new System.Drawing.Size(100, 27);
-            this.SPizza.TabIndex = 20;
-            // 
-            // MPizza
-            // 
-            this.MPizza.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.MPizza.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MPizza.Location = new System.Drawing.Point(160, 56);
-            this.MPizza.Name = "MPizza";
-            this.MPizza.Size = new System.Drawing.Size(100, 27);
-            this.MPizza.TabIndex = 19;
-            // 
-            // checkBox30
-            // 
-            this.checkBox30.AutoSize = true;
-            this.checkBox30.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox30.Location = new System.Drawing.Point(461, 27);
-            this.checkBox30.Name = "checkBox30";
-            this.checkBox30.Size = new System.Drawing.Size(165, 23);
-            this.checkBox30.TabIndex = 13;
-            this.checkBox30.Text = "Extra Large(1450 Rs)";
-            this.checkBox30.UseVisualStyleBackColor = true;
-            // 
-            // textBox35
-            // 
-            this.textBox35.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox35.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox35.Location = new System.Drawing.Point(492, 56);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(100, 27);
-            this.textBox35.TabIndex = 17;
-            // 
-            // textBox36
-            // 
-            this.textBox36.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox36.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox36.Location = new System.Drawing.Point(328, 56);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(100, 27);
-            this.textBox36.TabIndex = 18;
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox9.Location = new System.Drawing.Point(149, 27);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(118, 23);
-            this.checkBox9.TabIndex = 8;
-            this.checkBox9.Text = "MediumPizza";
-            this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // checkBox11
-            // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox11.Location = new System.Drawing.Point(317, 27);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(126, 23);
-            this.checkBox11.TabIndex = 10;
-            this.checkBox11.Text = "Large(1100 Rs)";
-            this.checkBox11.UseVisualStyleBackColor = true;
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox7.Location = new System.Drawing.Point(6, 85);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(165, 23);
+            this.checkBox7.TabIndex = 28;
+            this.checkBox7.Text = "Beef Burger (Rs 180)";
+            this.checkBox7.UseVisualStyleBackColor = true;
             // 
             // tabPage2
             // 
@@ -980,7 +710,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 35);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1294, 481);
+            this.tabPage2.Size = new System.Drawing.Size(1270, 541);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Confirm Your Order";
             // 
@@ -1110,7 +840,7 @@
             this.tabPage3.Controls.Add(this.groupBox6);
             this.tabPage3.Location = new System.Drawing.Point(4, 35);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1294, 481);
+            this.tabPage3.Size = new System.Drawing.Size(1270, 541);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Make Payment";
             // 
@@ -1436,36 +1166,270 @@
             this.label6.TabIndex = 0;
             this.label6.Text = "*First Name:";
             // 
-            // Form1
+            // pictureBox6
+            // 
+            this.pictureBox6.BackgroundImage = global::project.Properties.Resources.bgd4;
+            this.pictureBox6.Location = new System.Drawing.Point(236, 30);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(221, 127);
+            this.pictureBox6.TabIndex = 14;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackgroundImage = global::project.Properties.Resources.bgd2;
+            this.pictureBox5.Location = new System.Drawing.Point(21, 172);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(209, 125);
+            this.pictureBox5.TabIndex = 13;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = global::project.Properties.Resources.bgd3;
+            this.pictureBox4.Location = new System.Drawing.Point(21, 319);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(209, 117);
+            this.pictureBox4.TabIndex = 12;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::project.Properties.Resources.bgd6;
+            this.pictureBox3.Location = new System.Drawing.Point(236, 319);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(221, 117);
+            this.pictureBox3.TabIndex = 11;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::project.Properties.Resources.bgd5;
+            this.pictureBox2.Location = new System.Drawing.Point(236, 172);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(221, 125);
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::project.Properties.Resources.bgd1;
+            this.pictureBox1.Location = new System.Drawing.Point(21, 30);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(209, 127);
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
+            // textBox22
+            // 
+            this.textBox22.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.textBox22.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox22.Location = new System.Drawing.Point(176, 120);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(45, 27);
+            this.textBox22.TabIndex = 15;
+            // 
+            // textBox23
+            // 
+            this.textBox23.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.textBox23.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox23.Location = new System.Drawing.Point(176, 259);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(45, 27);
+            this.textBox23.TabIndex = 16;
+            // 
+            // textBox24
+            // 
+            this.textBox24.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.textBox24.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox24.Location = new System.Drawing.Point(401, 400);
+            this.textBox24.Name = "textBox24";
+            this.textBox24.Size = new System.Drawing.Size(45, 27);
+            this.textBox24.TabIndex = 17;
+            // 
+            // textBox25
+            // 
+            this.textBox25.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.textBox25.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox25.Location = new System.Drawing.Point(401, 120);
+            this.textBox25.Name = "textBox25";
+            this.textBox25.Size = new System.Drawing.Size(45, 27);
+            this.textBox25.TabIndex = 18;
+            // 
+            // textBox26
+            // 
+            this.textBox26.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.textBox26.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox26.Location = new System.Drawing.Point(401, 259);
+            this.textBox26.Name = "textBox26";
+            this.textBox26.Size = new System.Drawing.Size(45, 27);
+            this.textBox26.TabIndex = 19;
+            // 
+            // textBox27
+            // 
+            this.textBox27.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.textBox27.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox27.Location = new System.Drawing.Point(176, 400);
+            this.textBox27.Name = "textBox27";
+            this.textBox27.Size = new System.Drawing.Size(45, 27);
+            this.textBox27.TabIndex = 20;
+            // 
+            // checkBox11
+            // 
+            this.checkBox11.AutoSize = true;
+            this.checkBox11.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox11.Location = new System.Drawing.Point(6, 490);
+            this.checkBox11.Name = "checkBox11";
+            this.checkBox11.Size = new System.Drawing.Size(155, 23);
+            this.checkBox11.TabIndex = 30;
+            this.checkBox11.Text = "Chilli Blast (Rs 600)";
+            this.checkBox11.UseVisualStyleBackColor = true;
+            // 
+            // checkBox12
+            // 
+            this.checkBox12.AutoSize = true;
+            this.checkBox12.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox12.Location = new System.Drawing.Point(6, 457);
+            this.checkBox12.Name = "checkBox12";
+            this.checkBox12.Size = new System.Drawing.Size(177, 23);
+            this.checkBox12.TabIndex = 31;
+            this.checkBox12.Text = "Fiery Gigantic (Rs 700)";
+            this.checkBox12.UseVisualStyleBackColor = true;
+            // 
+            // checkBox13
+            // 
+            this.checkBox13.AutoSize = true;
+            this.checkBox13.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox13.Location = new System.Drawing.Point(6, 422);
+            this.checkBox13.Name = "checkBox13";
+            this.checkBox13.Size = new System.Drawing.Size(190, 23);
+            this.checkBox13.TabIndex = 32;
+            this.checkBox13.Text = "Gigantic Burger (Rs 600)";
+            this.checkBox13.UseVisualStyleBackColor = true;
+            // 
+            // checkBox24
+            // 
+            this.checkBox24.AutoSize = true;
+            this.checkBox24.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox24.Location = new System.Drawing.Point(6, 337);
+            this.checkBox24.Name = "checkBox24";
+            this.checkBox24.Size = new System.Drawing.Size(235, 42);
+            this.checkBox24.TabIndex = 34;
+            this.checkBox24.Text = "Special Zinger Cheese (Rs 700) \r\nBurger ";
+            this.checkBox24.UseVisualStyleBackColor = true;
+            // 
+            // checkBox27
+            // 
+            this.checkBox27.AutoSize = true;
+            this.checkBox27.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox27.Location = new System.Drawing.Point(6, 308);
+            this.checkBox27.Name = "checkBox27";
+            this.checkBox27.Size = new System.Drawing.Size(198, 23);
+            this.checkBox27.TabIndex = 35;
+            this.checkBox27.Text = "Crunchos Burger (Rs 650)";
+            this.checkBox27.UseVisualStyleBackColor = true;
+            // 
+            // textBox29
+            // 
+            this.textBox29.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox29.Location = new System.Drawing.Point(242, 303);
+            this.textBox29.Name = "textBox29";
+            this.textBox29.Size = new System.Drawing.Size(45, 27);
+            this.textBox29.TabIndex = 48;
+            // 
+            // textBox30
+            // 
+            this.textBox30.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox30.Location = new System.Drawing.Point(242, 270);
+            this.textBox30.Name = "textBox30";
+            this.textBox30.Size = new System.Drawing.Size(45, 27);
+            this.textBox30.TabIndex = 47;
+            // 
+            // textBox31
+            // 
+            this.textBox31.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox31.Location = new System.Drawing.Point(242, 236);
+            this.textBox31.Name = "textBox31";
+            this.textBox31.Size = new System.Drawing.Size(45, 27);
+            this.textBox31.TabIndex = 46;
+            // 
+            // textBox32
+            // 
+            this.textBox32.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox32.Location = new System.Drawing.Point(242, 201);
+            this.textBox32.Name = "textBox32";
+            this.textBox32.Size = new System.Drawing.Size(45, 27);
+            this.textBox32.TabIndex = 45;
+            // 
+            // textBox33
+            // 
+            this.textBox33.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox33.Location = new System.Drawing.Point(242, 168);
+            this.textBox33.Name = "textBox33";
+            this.textBox33.Size = new System.Drawing.Size(45, 27);
+            this.textBox33.TabIndex = 44;
+            // 
+            // textBox34
+            // 
+            this.textBox34.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox34.Location = new System.Drawing.Point(242, 486);
+            this.textBox34.Name = "textBox34";
+            this.textBox34.Size = new System.Drawing.Size(45, 27);
+            this.textBox34.TabIndex = 53;
+            // 
+            // textBox35
+            // 
+            this.textBox35.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox35.Location = new System.Drawing.Point(242, 453);
+            this.textBox35.Name = "textBox35";
+            this.textBox35.Size = new System.Drawing.Size(45, 27);
+            this.textBox35.TabIndex = 52;
+            // 
+            // textBox36
+            // 
+            this.textBox36.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox36.Location = new System.Drawing.Point(242, 420);
+            this.textBox36.Name = "textBox36";
+            this.textBox36.Size = new System.Drawing.Size(45, 27);
+            this.textBox36.TabIndex = 51;
+            // 
+            // textBox37
+            // 
+            this.textBox37.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox37.Location = new System.Drawing.Point(242, 383);
+            this.textBox37.Name = "textBox37";
+            this.textBox37.Size = new System.Drawing.Size(45, 27);
+            this.textBox37.TabIndex = 50;
+            // 
+            // textBox38
+            // 
+            this.textBox38.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox38.Location = new System.Drawing.Point(242, 337);
+            this.textBox38.Name = "textBox38";
+            this.textBox38.Size = new System.Drawing.Size(45, 27);
+            this.textBox38.TabIndex = 49;
+            // 
+            // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1340, 578);
+            this.ClientSize = new System.Drawing.Size(1370, 633);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label22);
-            this.Name = "Form1";
-            this.Text = "Pizza_Resturant";
+            this.Name = "Form3";
+            this.Text = "BURGER_RESTURANT";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
@@ -1473,6 +1437,12 @@
             this.groupBox7.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1483,18 +1453,22 @@
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.GroupBox groupBox8;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.CheckBox checkBox29;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox12;
+        private System.Windows.Forms.Button Conf_Order;
+        private System.Windows.Forms.Label label20;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.CheckBox checkBox25;
-        private System.Windows.Forms.CheckBox checkBox24;
-        private System.Windows.Forms.CheckBox checkBox22;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.TextBox textBox44;
+        private System.Windows.Forms.TextBox textBox39;
+        private System.Windows.Forms.TextBox textBox40;
+        private System.Windows.Forms.TextBox textBox41;
+        private System.Windows.Forms.TextBox textBox42;
+        private System.Windows.Forms.TextBox textBox43;
+        private System.Windows.Forms.CheckBox checkBox26;
+        private System.Windows.Forms.CheckBox checkBox14;
+        private System.Windows.Forms.CheckBox checkBox9;
+        private System.Windows.Forms.CheckBox checkBox8;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox6;
@@ -1511,27 +1485,10 @@
         private System.Windows.Forms.CheckBox checkBox17;
         private System.Windows.Forms.CheckBox checkBox16;
         private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.Button Conf_Order;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.TextBox textBox27;
         private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.CheckBox checkBox30;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox11;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label5;
@@ -1580,28 +1537,39 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.CheckBox checkBox7;
+        private System.Windows.Forms.CheckBox checkBox10;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.TextBox MPizza;
-        private System.Windows.Forms.TextBox textBox36;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.TextBox textBox25;
+        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.CheckBox checkBox27;
+        private System.Windows.Forms.CheckBox checkBox24;
+        private System.Windows.Forms.CheckBox checkBox13;
+        private System.Windows.Forms.CheckBox checkBox12;
+        private System.Windows.Forms.CheckBox checkBox11;
+        private System.Windows.Forms.TextBox textBox34;
         private System.Windows.Forms.TextBox textBox35;
-        private System.Windows.Forms.TextBox textBox42;
-        private System.Windows.Forms.TextBox textBox41;
-        private System.Windows.Forms.TextBox textBox40;
-        private System.Windows.Forms.TextBox textBox39;
+        private System.Windows.Forms.TextBox textBox36;
+        private System.Windows.Forms.TextBox textBox37;
         private System.Windows.Forms.TextBox textBox38;
-        private System.Windows.Forms.TextBox SPizza;
-        private System.Windows.Forms.CheckBox SmallPizza;
-
+        private System.Windows.Forms.TextBox textBox29;
+        private System.Windows.Forms.TextBox textBox30;
+        private System.Windows.Forms.TextBox textBox31;
+        private System.Windows.Forms.TextBox textBox32;
+        private System.Windows.Forms.TextBox textBox33;
     }
 }
-
